@@ -54,6 +54,22 @@
     background-image: url("https://ak8.picdn.net/shutterstock/videos/19000468/thumb/1.jpg");
 }
 
+.overlay{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
 h1{
-
+    color: #ececec;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid red;
+    border-radius: 2em;
+    background-color: red;
+    padding: 4px;
 }
