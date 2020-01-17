@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-
+    font-family: 'Alata', sans-serif;
   }
 
 .sfondo {
@@ -43,7 +42,7 @@
 }
 
 .milano {
-    background-image: url("https://nst.sky.it/content/dam/static/contentimages/original/sezioni/tg24/cronaca/2017/01/23/GettyImages-PiazzaDuomo.jpg/_jcr_content/renditions/cq5dam.web.738.462.jpeg");
+    background-image: url("https://img.huffingtonpost.com/asset/5dcbc0941f00008204dee3e1.jpeg?cache=UlYSnUcn1S&ops=scalefit_630_noupscale");
 }
 
 .dublino{
@@ -51,7 +50,7 @@
 }
 
 .praga{
-    background-image: url("https://ak8.picdn.net/shutterstock/videos/19000468/thumb/1.jpg");
+    background-image: url("https://www.ilmessaggero.it/photos/MED/04/02/4310402_1217_prague_3010407_960_720.jpg");
 }
 
 .overlay{
@@ -60,16 +59,21 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 h1{
-    color: #ececec;
+    color: #04240c;
     position: absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid red;
-    border-radius: 2em;
-    background-color: red;
+
+}
+
+h1:hover{
+    cursor: pointer;
+    border-radius: 1em;
+    background-color: #17e34a;
     padding: 4px;
 }
