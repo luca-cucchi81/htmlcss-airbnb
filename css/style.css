@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
   }
 
 .sfondo {
@@ -50,4 +52,8 @@
 
 .praga{
     background-image: url("https://ak8.picdn.net/shutterstock/videos/19000468/thumb/1.jpg");
+}
+
+h1{
+
 }
